@@ -395,3 +395,213 @@ hr {
     width: 100%;
     margin: 0 auto;
 }
+@media screen and (max-width: 1500px) {
+    .grunt .items h3 {
+        bottom: -12vw;
+
+    }
+}
+@media screen and (max-width: 1300px) {
+    header, .menu ul, .header-section .container, .grunt, .about, hr, .tags, .portfolio, .location, footer .container {
+        max-width: 100%;
+        width: 80%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .grunt .items h3 {
+        font-size: 20px;
+    }
+    p.traktor-title {
+        font-size: 100px;
+    }
+    .about-box .phone {
+        margin: 0 30px;
+        font-size: 26px;
+    }
+    .about-box .download {
+        margin: 0 0 0 30px;
+    }
+    footer hr {
+        width: 100%;
+    }
+    footer h3, footer a {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    p.traktor-title {
+        font-size: 70px;
+    }
+    .about-box .phone {
+        margin: 0 15px;
+        font-size: 22px;
+    }
+    .about-box .download {
+        margin: 0 0 0 15px;
+        font-size: 16px;
+    }
+    .tags li {
+        height: auto;
+    }
+    .portfolio .items {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .portfolio .items .left {
+        width: 90%;
+        margin: 5% auto 0;
+    }
+    .portfolio .items .big {
+        width: 90%;
+        padding: 15% 0;
+        margin: 0 auto;
+    }
+    footer h3, footer a {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contacts a {
+        font-size: 22px;
+    }
+    .contacts span {
+        margin: -6px 35px 0;
+    }
+    .menu ul {
+        justify-content: center;
+    }
+    .menu li {
+        margin: 0 0 0 15px;
+    }
+    .menu a{
+        font-size: 1.5em;
+    }
+    header img {
+        height: 100%;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .header-section .advantages {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .advantages div {
+        width: 45%;
+        text-align: center;
+        margin: 0 0 5%;
+        font-size: 2em;
+    }
+    .grunt .items {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .grunt .item {
+        width: 45%;
+        height: 30vw;
+    }
+    .grunt .item h3 {
+        bottom: -27vw;
+    }
+    .grunt img {
+        display: none;
+    }
+    p.traktor-title {
+        margin: 60px auto 0;
+    }
+    .grunt {
+        padding: 30px 0 ;
+    }
+    .about-box {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .about-box .left {
+        width: 100%;
+        text-align: center;
+    }
+    .about-box h3 {
+        text-align: center;
+    }
+    .about .right {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .tags ul {
+        column-count: 2;
+    }
+    iframe {
+        height: 60vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .contacts span {
+        display: none;
+    }
+    .menu ul {
+
+        flex-direction: column;
+        height: auto;
+        font-weight: 700;
+    }
+    .menu a {
+        line-height: 2.3em;
+    }
+    h1 {
+        margin: 0 0 40px;
+        font-size: 30px;
+
+    }
+    .advantages div {
+        width: 90%;
+    }
+    .grunt .item {
+        width: 90%;
+        margin: 7% auto;
+        height: 50vw;
+    }
+    .grunt .item h3 {
+        bottom: -45vw;
+    }
+    p.traktor-title{
+        font-size: 40px;
+    }
+    .about .right {
+        display: none;
+    }
+    .tags ul {
+        column-count: 1;
+    }
+    .portfolio .items .left {
+        width: 100%;
+    }
+     .portfolio .items .less, .portfolio .items .more {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .portfolio .items .big {
+        margin: 5% auto;
+    }
+    .footer-contacts span {
+        margin: 0 15px;
+    }
+}

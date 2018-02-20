@@ -10,11 +10,11 @@ body {
     font: 0.7em/1.6 "Open Sans", sans-serif;
     /*-webkit-font-smoothing: antialiased;*/
 }
-@font-face {
+/*@font-face {
     font-family: War;
     src: url(../fonts/war-webfont.eot) format('eot'),
     url(../fonts/war-webfont.woff2) format('woff');
-}
+}*/
 @font-face {
     font-family: GothamPro; /* Имя шрифта */
     src: url(../fonts/GothamPro.otf);
@@ -55,7 +55,7 @@ header img {
 .contacts a {
     font-size: 29px;
     color: #000;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
 }
 .contacts span {
     font-size: 1.5em;
@@ -113,14 +113,14 @@ header img {
 h1 {
     margin: 0 0 80px;
     font-size: 72px;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
 }
 h1 p {
     line-height: 1em;
     margin: 0 0 30px;
 }
 h2 {
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
@@ -164,7 +164,7 @@ h2 {
     text-transform: uppercase;
     background-color: white;
     font-size: 26px;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
 }
 .grunt .item-1 {
     background: url(../img/grunt_rastitelny.png);
@@ -188,9 +188,9 @@ h2 {
 
 p.traktor-title {
     margin: 105px 0 0 53%;
-    font-size: 150px;
+    font-size: 70px;
     line-height: 1.2em;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
     text-transform: uppercase;
     background: #262626;
     color: #fff;
@@ -233,7 +233,7 @@ p.traktor-title span {
 }
 .about-box h3 {
     font-size: 44px;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
     text-align: left;
 }
 .about-box .description {
@@ -246,11 +246,11 @@ p.traktor-title span {
     color: #000;
     margin: 0 35px 0 60px;
     font-size: 29px;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
 }
 .about-box .download {
     font-size: 20px;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
     color: #000;
     background: #ffd700;
     text-transform: uppercase;
@@ -363,7 +363,7 @@ footer .container {
 footer h3, footer a {
     font-size: 29px;
     text-transform: uppercase;
-    font-family: 'War';
+    font-family: 'Rubik Mono One';
     color: #fff;
     text-align: center;
 }
@@ -413,7 +413,7 @@ hr {
         font-size: 20px;
     }
     p.traktor-title {
-        font-size: 100px;
+        font-size: 60px;
     }
     .about-box .phone {
         margin: 0 30px;
@@ -431,7 +431,7 @@ hr {
 }
 @media screen and (max-width: 1024px) {
     p.traktor-title {
-        font-size: 70px;
+        font-size: 50px;
     }
     .about-box .phone {
         margin: 0 15px;

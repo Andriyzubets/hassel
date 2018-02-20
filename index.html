@@ -32,39 +32,43 @@
     </nav>
 
     <main>
-        <section class="header-section">
+        <section class="header-section" id="header-section">
+            <div class="video-cover" id="video-cover">
+                <video src="img/vid.mp4" autoplay="autoplay" loop></video>
+            </div>
+            
             <div class="container">
                 <div class="video-box">
                     <h1>
                         <p>
-                        ГРУНТ</br>НА ПОДСЫПКУ
-                    </p>
-                    <p >
-                        ЗЕМЛЯНЫЕ<br>РАБОТЫ
-                    </p>
-                </h1>
-            </div>
-            <div class="advantages">
-                <div class="info-box1">
-                    <img src="img/info-1.png" alt="image">
-                    <p>Быстрая доставка <br>по Киеву и области</p>
+                            ГРУНТ</br>НА ПОДСЫПКУ
+                        </p>
+                        <p >
+                            ЗЕМЛЯНЫЕ<br>РАБОТЫ
+                        </p>
+                    </h1>
                 </div>
-                <div class="info-box2">
-                    <img src="img/info-2.png" alt="image">
-                    <p>Быстрая доставка <br>по Киеву и области</p>
-                </div>
-                <div class="info-box3">
-                    <img src="img/info-3.png" alt="image">
-                    <p>Быстрая доставка <br>по Киеву и области</p>
-                </div>
-                <div class="info-box4">
-                    <img src="img/info-4.png" alt="image">
-                    <p>Быстрая доставка <br>по Киеву и области</p>
-                </div>
+                <div class="advantages">
+                    <div class="info-box1">
+                        <img src="img/info-1.png" alt="image">
+                        <p>Быстрая доставка <br>по Киеву и области</p>
+                    </div>
+                    <div class="info-box2">
+                        <img src="img/info-2.png" alt="image">
+                        <p>Быстрая доставка <br>по Киеву и области</p>
+                    </div>
+                    <div class="info-box3">
+                        <img src="img/info-3.png" alt="image">
+                        <p>Быстрая доставка <br>по Киеву и области</p>
+                    </div>
+                    <div class="info-box4">
+                        <img src="img/info-4.png" alt="image">
+                        <p>Быстрая доставка <br>по Киеву и области</p>
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
     <section class="grunt">
         <h2>
             ГРУНТ
@@ -181,8 +185,12 @@
         </div>
     </footer>
 </main>
-<footer>
+<script type="text/javascript">
+        var h = document.querySelector('#header-section');
+        var height = window.getComputedStyle(h, null).height;
+        document.querySelector('#video-cover').style.height=height;
+</script>
 
-</footer>
+
 </body>
 </html>

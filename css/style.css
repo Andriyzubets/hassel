@@ -13,202 +13,215 @@ body {
 @font-face {
     font-family: Bebas;
     src: url(../fonts/bebas-bold.otf) format('opentype');
-    }
-    @font-face {
-        font-family: GothamPro; /* Имя шрифта */
-        src: url(../fonts/GothamPro.otf);
-    }
-    a {
-        text-decoration: none;
-    }
-    header {
-        max-width: 1200px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    header img {
-        position: relative;
-        height: 170%;
-        z-index: 1;
-    }
-    .first-layer {
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        justify-content: flex-end;
-        -ms-align-items: center;
-        /*align-items: center;*/
-        height: 100px;
-    }
-    .contacts {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: flex-end;
-        -ms-align-items: center;
-        align-items: center;
-        /*margin: -70px 0 0;*/
-    }
-    .contacts a {
-        font-size: 29px;
-        color: #000;
-        font-family: 'Bebas';
-    }
-    .contacts span {
-        font-size: 1.5em;
-        margin: -12px 75px 0;
-    }
-    .menu {
-        width: 100%;
-        background: #f1f2f4;
-        /*top: -70px;*/
-        position: relative;
-    }
-    .menu ul {
-        max-width: 1200px;
-        width: 100%;
-        margin: 0 auto;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        justify-content: flex-end;
-        -ms-align-items: center;
-        align-items: center;
-        height: 47px;
-        list-style: none;
-        z-index: 1;
-    }
-    .menu li {
-        margin: 0 0 0 50px;
-    }
-    .menu a {
-        text-transform: uppercase;
-        color: #000;
-    }
-    .header-section {
-        width: 100%;
-        background: #fffbe8;
-    }
-    .header-section .container {
-        max-width: 1200px;
-        width: 100%;
-        margin: 0 auto;
-        padding: 100px 0 75px;
-    }
-    .header-section .advantages {
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        justify-content: space-between;
-        -ms-align-items: center;
-        align-items: center;
-    }
-    h1 {
-        margin: 0 0 80px;
-        font-size: 72px;
-        font-family: 'Bebas';
-    }
-    h1 p {
-        line-height: 1em;
-        margin: 0 0 30px;
-    }
-    h2 {
-        font-family: 'Bebas';
-        font-size: 50px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .grunt {
-        padding: 30px 0 100px;
-        max-width: 1200px;
-        width: 100%;
-        margin: 0 auto; 
-    }
-    .grunt p {
-        font-size: 16px;
-        font-weight: 300;
-        text-align: center;
-    }
-    .grunt .items {
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        justify-content: space-between;
-        -ms-align-items: center;
-        align-items: center;
-    }
-    .grunt .item {
-        width: 19.5%;
-        height: 14vw;
-        max-height: 235px;
-        background-size: cover;
-        margin: 100px 0 0;
-    }
-    .grunt .items h3 {
-        width: 90%;
-        background: #fff;
-        box-shadow: 0 0 10px #000;
-        position: relative;
-        bottom: -200px;
-        left: -18px;
-        text-align: center;
-        text-transform: uppercase;
-        background-color: white;
-        font-size: 26px;
-        font-family: 'Bebas';
-    }
-    .grunt .item-1 {
-        background: url(../img/grunt_rastitelny.png);
-    }
-    .grunt .item-2 {
-        background: url(../img/grunt-2.jpg);
-    }
-    .grunt .item-3 {
-        background: url(../img/grunt-3.jpg);
-    }
-    .grunt .item-4 {
-        background: url(../img/grunt-4.jpg);
-    }
-    .grunt .item {
-        width: 19.5%;
-        height: 14vw;
-        max-height: 235px;
-        background-size: cover;
-        margin: 100px 0 0;
-    }
+}
+@font-face {
+    font-family: GothamPro; /* Имя шрифта */
+    src: url(../fonts/GothamPro.otf);
+}
+a {
+    text-decoration: none;
+}
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header img {
+    position: relative;
+    height: 170%;
+    z-index: 1;
+}
+.first-layer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    -ms-align-items: center;
+    /*align-items: center;*/
+    height: 100px;
+}
+.contacts {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    -ms-align-items: center;
+    align-items: center;
+    /*margin: -70px 0 0;*/
+}
 
-    p.traktor-title {
-        margin: 105px 0 0 53%;
-        font-size: 70px;
-        line-height: 1.2em;
-        font-family: 'Bebas';
-        text-transform: uppercase;
-        background: #262626;
-        color: #fff;
-    }
-    p.traktor-title span {
-        color: #eab600;
-    }
-    .grunt img {
-        position: absolute;
-        width: 45%;
-        left: -9%;
-        margin: -2% 0 0;
-    }
-    .about {
-     max-width: 1200px;
-     width: 100%;
-     margin: 0 auto;
- }
- .about > p {
+.contacts a {
+    font-size: 29px;
+    color: #000;
+    font-family: 'Bebas';
+}
+.contacts span {
+    font-size: 1.5em;
+    margin: -12px 75px 0;
+}
+.menu {
+    width: 100%;
+    background: #f1f2f4;
+    /*top: -70px;*/
+    position: relative;
+}
+.menu ul {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    -ms-align-items: center;
+    align-items: center;
+    height: 47px;
+    list-style: none;
+    z-index: 1;
+}
+.menu li {
+    margin: 0 0 0 50px;
+}
+.menu a {
+    text-transform: uppercase;
+    color: #000;
+}
+.header-section {
+    width: 100%;
+    overflow: hidden;
+}
+.header-section .video-cover {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    /*height: 75vh;*/
+    overflow: hidden;
+}
+.header-section video {
+    width: 100%;
+}
+
+.header-section .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 75px;
+        text-shadow: 0 0 20px #fff;
+}
+.header-section .advantages {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+h1 {
+    margin: 0 0 80px;
+    font-size: 72px;
+    font-family: 'Bebas';
+}
+h1 p {
+    line-height: 1em;
+    margin: 0 0 30px;
+}
+h2 {
+    font-family: 'Bebas';
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.grunt {
+    padding: 30px 0 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.grunt p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.grunt .items {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.grunt .item {
+    width: 19.5%;
+    height: 14vw;
+    max-height: 235px;
+    background-size: cover;
+    margin: 100px 0 0;
+}
+.grunt .items h3 {
+    width: 90%;
+    background: #fff;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    bottom: -200px;
+    left: -18px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 26px;
+    font-family: 'Bebas';
+}
+.grunt .item-1 {
+    background: url(../img/grunt_rastitelny.png);
+}
+.grunt .item-2 {
+    background: url(../img/grunt-2.jpg);
+}
+.grunt .item-3 {
+    background: url(../img/grunt-3.jpg);
+}
+.grunt .item-4 {
+    background: url(../img/grunt-4.jpg);
+}
+.grunt .item {
+    width: 19.5%;
+    height: 14vw;
+    max-height: 235px;
+    background-size: cover;
+    margin: 100px 0 0;
+}
+
+p.traktor-title {
+    margin: 105px 0 0 53%;
+    font-size: 70px;
+    line-height: 1.2em;
+    font-family: 'Bebas';
+    text-transform: uppercase;
+    background: #262626;
+    color: #fff;
+}
+p.traktor-title span {
+    color: #eab600;
+}
+.grunt img {
+    position: absolute;
+    width: 45%;
+    left: -9%;
+    margin: -2% 0 0;
+}
+.about {
+ max-width: 1200px;
+ width: 100%;
+ margin: 0 auto;
+}
+.about > p {
     margin: 30px 0 100px;
     text-align: center;
     font-size: 16px;
@@ -393,6 +406,11 @@ hr {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+}
+@media screen and (min-width: 1501px) {
+    .grunt {
+        padding: 30px 0 200px;
+    }
 }
 @media screen and (max-width: 1500px) {
     .grunt .items h3 {
